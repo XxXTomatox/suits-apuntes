@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "97de7a1ad7f6ddb7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "quique/dia1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "43406e3c54084bc3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unidad_1/01-php Basico.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unidad_1/00- Que es php y para que sirve.md",
+                "file": "Unidad_1/01-php Basico.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Unidad_1/00- Que es php y para que sirve.md",
+                "file": "Unidad_1/01-php Basico.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Unidad_1/00- Que es php y para que sirve.md"
+                "file": "Unidad_1/01-php Basico.md"
               }
             }
           }
@@ -146,10 +171,17 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "a6f05712ab41cee9",
+  "active": "43406e3c54084bc3",
   "lastOpenFiles": [
-    "Unidad_1/Untitled.canvas",
+    "imajenes/Captura de pantalla 2023-08-24 a la(s) 8.25.56.png",
+    "Unidad_1/01-php Basico.md",
+    "imajenes",
     "Unidad_1/00- Que es php y para que sirve.md",
+    "imajenes/Captura de pantalla 2023-08-24 a la(s) 7.24.35.png",
+    "imajenes/Captura de pantalla 2023-08-24 a la(s) 7.22.52.png",
+    "quique/dia1.md",
+    "quique",
+    "Unidad_1/Untitled.canvas",
     "Unidad_1"
   ]
 }
