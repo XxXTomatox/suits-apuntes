@@ -317,3 +317,102 @@ unciona sólo sobre arrays y objetos, y emitirá un error al intentar usarlo con
 ?>
 ```
 
+
+## funciones
+
+las funciones sirven para resolver una tarea 
+
+```php 
+
+<?php
+  
+function saludar($nombre,$apellido) {
+	return "hola ". $nombre . " " . $apellido;
+	}
+
+print(saludar("Axel","Vertiz"));
+
+?>
+
+```
+## calses
+
+es una palabra reservada que puede guardar funciones y variables estas puedes ser publicas o privadas  
+
+```php
+<?php
+
+class persona{
+	public function _construct(public $nombre, public $apellido, public $edad);
+}
+
+class Alumno{
+	public $matricula;
+	public $nombre:
+	public $apellido;
+	public $edad;
+	
+	public function _construct($matricula, $nombre, $apellido, $edad){
+		$this -> matricula = $matricula;
+		$this -> nombre = $nombre;
+		$this -> apellido = $apellido;
+		$this -> edad = $edad;
+	}
+	  
+	public function reprobar($materia){
+		return "reprobaste: " . $materia;
+		}
+	public function aprobar($materia,$calificacion){
+		return "aprobaste: " . $materia. "con: " . $calificacion;
+		}
+}
+
+$alumno = new Alumno(201190021,"Axel","Martinez",20)
+$parker = new persona("Axel","Martinez", 20);
+
+echo "<pre>";
+print_r($parker);
+print_r($alumno);
+print($alumno ->aprobar ("POO",70));
+echo "<br>";
+print($alumno ->reprobar ("POO"));
+echo "</pre>";
+
+?>
+```
+
+## Encapsulamiento
+
+sirve para manipular y gestionar el acceso a los datos de la classe 
+
+```php
+<?php
+  
+class producto {
+		public function __construct(protected $nombre = "Oreo",private $precio = 29,protected $caducidad = "29/09/2023"){}
+		  
+		public static function obtenerProducto(){
+		return "accedimos al metodo estatico";
+		/**
+		* if ($nombre === $this->nombre) {
+		* return "priducto: " . $this->nombre ."precio: " . $this-> precio        ."Caducidad: " . $this-> caducidad;
+		* }else {
+		* return "El producto no existe";
+		* }
+		*/
+	}
+}
+$galletas = new producto("Principe",20,"29/09/2023");
+  
+echo "<pre>";
+print_r($galletas->obtenerProducto("marias"));
+echo "<br>";
+print_r($galletas->obtenerProducto("Principe"));
+echo "<br>";
+print_r(producto::obtenerProducto("Principe"));
+echo "</pre>";
+
+?>
+```
+
+
